@@ -1,0 +1,82 @@
+# Build directories
+scanner/build/
+scanner/CMakeCache.txt
+scanner/CMakeFiles/
+scanner/cmake_install.cmake
+scanner/Makefile
+scanner/*.vcxproj
+scanner/*.vcxproj.filters
+scanner/*.sln
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+test_files/
+/tmp/
+/temp/
+
+# Log files
+*.log
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Docker
+.dockerignore
+
+# Test outputs
+*.test
+test_results/
+
+# Backup files
+*.bak
+*.backup
+
+# Compiled files
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# Package files
+*.tar.gz
+*.zip
+*.rar
+
+# Documentation build
+docs/_build/ 
